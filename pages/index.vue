@@ -10,10 +10,10 @@
 
     <!-- Navbar Start -->
     <nav class='navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5'>
-      <a href='index.html' class='navbar-brand d-flex align-items-center'>
-        <h2 class='m-0 text-primary'><img class='img-fluid me-2' src='img/icon-1.png' alt=''
+      <nuxt-link to='/'  class='navbar-brand d-flex align-items-center'>
+        <h2 class='m-0 text-primary'><img class='img-fluid me-2' src='/img/icon-1.png' alt=''
                                           style='width: 45px;'>CryptoCoin</h2>
-      </a>
+      </nuxt-link>
       <button type='button' class='navbar-toggler' data-bs-toggle='collapse' data-bs-target='#navbarCollapse'>
         <span class='navbar-toggler-icon'></span>
       </button>
@@ -58,7 +58,7 @@
             <a href='' class='btn btn-primary py-3 px-4 animated slideInDown'>Explore More</a>
           </div>
           <div class='col-lg-6 animated fadeIn'>
-            <img class='img-fluid animated pulse infinite' style='animation-duration: 3s;' src='img/hero-1.png'
+            <img class='img-fluid animated pulse infinite' style='animation-duration: 3s;' src='/img/hero-1.png'
                  alt=''>
           </div>
         </div>
@@ -72,7 +72,7 @@
       <div class='container'>
         <div class='row g-5 align-items-center'>
           <div class='col-lg-6 wow fadeInUp' data-wow-delay='0.1s'>
-            <img class='img-fluid' src='img/about.png' alt=''>
+            <img class='img-fluid' src='/img/about.png' alt=''>
           </div>
           <div class='col-lg-6 wow fadeInUp' data-wow-delay='0.5s'>
             <div class='h-100'>
@@ -109,17 +109,17 @@
       <div class='container py-5'>
         <div class='row g-5'>
           <div class='col-lg-4 col-md-6 text-center wow fadeIn' data-wow-delay='0.1s'>
-            <img class='img-fluid mb-4' src='img/icon-9.png' alt=''>
+            <img class='img-fluid mb-4' src='/img/icon-9.png' alt=''>
             <h1 class='display-4' data-toggle='counter-up'>123456</h1>
             <p class='fs-5 text-primary mb-0'>Today Transactions</p>
           </div>
           <div class='col-lg-4 col-md-6 text-center wow fadeIn' data-wow-delay='0.3s'>
-            <img class='img-fluid mb-4' src='img/icon-10.png' alt=''>
+            <img class='img-fluid mb-4' src='/img/icon-10.png' alt=''>
             <h1 class='display-4' data-toggle='counter-up'>123456</h1>
             <p class='fs-5 text-primary mb-0'>Monthly Transactions</p>
           </div>
           <div class='col-lg-4 col-md-6 text-center wow fadeIn' data-wow-delay='0.5s'>
-            <img class='img-fluid mb-4' src='img/icon-2.png' alt=''>
+            <img class='img-fluid mb-4' src='/img/icon-2.png' alt=''>
             <h1 class='display-4' data-toggle='counter-up'>123456</h1>
             <p class='fs-5 text-primary mb-0'>Total Transactions</p>
           </div>
@@ -139,7 +139,7 @@
         <div class='row g-5'>
           <div class='col-lg-4 col-md-6 wow fadeInUp' data-wow-delay='0.1s'>
             <div class='d-flex align-items-start'>
-              <img class='img-fluid flex-shrink-0' src='img/icon-7.png' alt=''>
+              <img class='img-fluid flex-shrink-0' src='/img/icon-7.png' alt=''>
               <div class='ps-4'>
                 <h5 class='mb-3'>Easy To Start</h5>
                 <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
@@ -149,7 +149,7 @@
           </div>
           <div class='col-lg-4 col-md-6 wow fadeInUp' data-wow-delay='0.3s'>
             <div class='d-flex align-items-start'>
-              <img class='img-fluid flex-shrink-0' src='img/icon-6.png' alt=''>
+              <img class='img-fluid flex-shrink-0' src='/img/icon-6.png' alt=''>
               <div class='ps-4'>
                 <h5 class='mb-3'>Safe & Secure</h5>
                 <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
@@ -159,7 +159,7 @@
           </div>
           <div class='col-lg-4 col-md-6 wow fadeInUp' data-wow-delay='0.5s'>
             <div class='d-flex align-items-start'>
-              <img class='img-fluid flex-shrink-0' src='img/icon-5.png' alt=''>
+              <img class='img-fluid flex-shrink-0' src='/img/icon-5.png' alt=''>
               <div class='ps-4'>
                 <h5 class='mb-3'>Affordable Plans</h5>
                 <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
@@ -169,7 +169,7 @@
           </div>
           <div class='col-lg-4 col-md-6 wow fadeInUp' data-wow-delay='0.1s'>
             <div class='d-flex align-items-start'>
-              <img class='img-fluid flex-shrink-0' src='img/icon-4.png' alt=''>
+              <img class='img-fluid flex-shrink-0' src='/img/icon-4.png' alt=''>
               <div class='ps-4'>
                 <h5 class='mb-3'>Secure Storage</h5>
                 <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
@@ -179,7 +179,7 @@
           </div>
           <div class='col-lg-4 col-md-6 wow fadeInUp' data-wow-delay='0.3s'>
             <div class='d-flex align-items-start'>
-              <img class='img-fluid flex-shrink-0' src='img/icon-3.png' alt=''>
+              <img class='img-fluid flex-shrink-0' src='/img/icon-3.png' alt=''>
               <div class='ps-4'>
                 <h5 class='mb-3'>Protected By Insurance</h5>
                 <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
@@ -189,7 +189,7 @@
           </div>
           <div class='col-lg-4 col-md-6 wow fadeInUp' data-wow-delay='0.5s'>
             <div class='d-flex align-items-start'>
-              <img class='img-fluid flex-shrink-0' src='img/icon-8.png' alt=''>
+              <img class='img-fluid flex-shrink-0' src='/img/icon-8.png' alt=''>
               <div class='ps-4'>
                 <h5 class='mb-3'>24/7 Support</h5>
                 <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
@@ -213,7 +213,7 @@
         <div class='row g-4'>
           <div class='col-lg-4 col-md-6 wow fadeInUp' data-wow-delay='0.1s'>
             <div class='service-item bg-white p-5'>
-              <img class='img-fluid mb-4' src='img/icon-7.png' alt=''>
+              <img class='img-fluid mb-4' src='/img/icon-7.png' alt=''>
               <h5 class='mb-3'>Currency Wallet</h5>
               <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
                 justo</p>
@@ -222,7 +222,7 @@
           </div>
           <div class='col-lg-4 col-md-6 wow fadeInUp' data-wow-delay='0.3s'>
             <div class='service-item bg-white p-5'>
-              <img class='img-fluid mb-4' src='img/icon-3.png' alt=''>
+              <img class='img-fluid mb-4' src='/img/icon-3.png' alt=''>
               <h5 class='mb-3'>Currency Transaction</h5>
               <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
                 justo</p>
@@ -231,7 +231,7 @@
           </div>
           <div class='col-lg-4 col-md-6 wow fadeInUp' data-wow-delay='0.5s'>
             <div class='service-item bg-white p-5'>
-              <img class='img-fluid mb-4' src='img/icon-9.png' alt=''>
+              <img class='img-fluid mb-4' src='/img/icon-9.png' alt=''>
               <h5 class='mb-3'>Bitcoin Investment</h5>
               <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
                 justo</p>
@@ -240,7 +240,7 @@
           </div>
           <div class='col-lg-4 col-md-6 wow fadeInUp' data-wow-delay='0.1s'>
             <div class='service-item bg-white p-5'>
-              <img class='img-fluid mb-4' src='img/icon-5.png' alt=''>
+              <img class='img-fluid mb-4' src='/img/icon-5.png' alt=''>
               <h5 class='mb-3'>Currency Exchange</h5>
               <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
                 justo</p>
@@ -249,7 +249,7 @@
           </div>
           <div class='col-lg-4 col-md-6 wow fadeInUp' data-wow-delay='0.3s'>
             <div class='service-item bg-white p-5'>
-              <img class='img-fluid mb-4' src='img/icon-2.png' alt=''>
+              <img class='img-fluid mb-4' src='/img/icon-2.png' alt=''>
               <h5 class='mb-3'>Bitcoin Escrow</h5>
               <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
                 justo</p>
@@ -258,7 +258,7 @@
           </div>
           <div class='col-lg-4 col-md-6 wow fadeInUp' data-wow-delay='0.5s'>
             <div class='service-item bg-white p-5'>
-              <img class='img-fluid mb-4' src='img/icon-8.png' alt=''>
+              <img class='img-fluid mb-4' src='/img/icon-8.png' alt=''>
               <h5 class='mb-3'>Token Sale</h5>
               <p>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo
                 justo</p>
@@ -351,10 +351,10 @@
             <a class='btn btn-primary py-3 px-4' href=''>Buy Token</a>
           </div>
           <div class='col-12 text-center'>
-            <img class='img-fluid m-1' src='img/payment-1.png' alt='' style='width: 50px;'>
-            <img class='img-fluid m-1' src='img/payment-2.png' alt='' style='width: 50px;'>
-            <img class='img-fluid m-1' src='img/payment-3.png' alt='' style='width: 50px;'>
-            <img class='img-fluid m-1' src='img/payment-4.png' alt='' style='width: 50px;'>
+            <img class='img-fluid m-1' src='/img/payment-1.png' alt='' style='width: 50px;'>
+            <img class='img-fluid m-1' src='/img/payment-2.png' alt='' style='width: 50px;'>
+            <img class='img-fluid m-1' src='/img/payment-3.png' alt='' style='width: 50px;'>
+            <img class='img-fluid m-1' src='/img/payment-4.png' alt='' style='width: 50px;'>
           </div>
         </div>
       </div>
@@ -505,7 +505,7 @@
       <div class='container py-5'>
         <div class='row g-5'>
           <div class='col-md-6'>
-            <h1 class='text-primary mb-4'><img class='img-fluid me-2' src='img/icon-1.png' alt=''
+            <h1 class='text-primary mb-4'><img class='img-fluid me-2' src='/img/icon-1.png' alt=''
                                                style='width: 45px;'>CryptoCoin</h1>
             <span>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed
                         stet lorem sit clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum
