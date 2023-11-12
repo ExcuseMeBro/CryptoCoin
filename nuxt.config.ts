@@ -29,7 +29,7 @@ export default defineNuxtConfig({
       ]
     }
   },
-  css: ['~/public/css/style.css'],
+  css: ['~/assets/style.css'],
   modules: [
     [
       '@pinia/nuxt',
